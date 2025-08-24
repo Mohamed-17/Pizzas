@@ -5,14 +5,14 @@ import CountdownTimer from "@/components/Countdown";
 function Offer() {
   return (
     <div
-      className="w-full p-4 lg:px-20 xl:px-40 h-[75vh] md:h-[60vh] flex justify-between items-center text-white flex-col lg:flex-row"
+      className="w-full my-2 relative p-4 lg:px-20 xl:px-40 h-[75vh] md:h-[60vh] flex justify-between items-center text-white flex-col lg:flex-row"
       style={{ backgroundImage: "url('/offerBg.png')" }}
     >
-      <div className="flex flex-col gap-6 flex-1 items-center justify-start p-6 ">
-        <h1 className="text-5xl lg:text-6xl xl:text-7xl text-center lg:text-start font-bold">
+      <div className="flex flex-col gap-3 md:gap-6 h-1/2 lg:h-full lg:w-1/2 items-center md:justify-center p-3 lg:p-6 ">
+        <h1 className="text-2xl lg:text-6xl xl:text-7xl text-center lg:text-start font-bold">
           Delicious Burger & French Fry
         </h1>
-        <p className="text-center lg:text-start md:text-xl">
+        <p className="text-center text-sm lg:text-start md:text-xl">
           Progressively simplify effective e-toilers and process-centric methods
           of empowerment. Quickly pontificate parallel.
         </p>
@@ -25,7 +25,7 @@ function Offer() {
           </button>
         </Link>
       </div>
-      <div className="flex-1 relative h-100  w-full">
+      <div className="h-1/2 relative lg:h-full lg:w-1/2  w-full">
         <Image
           src={"/offerProduct.png"}
           alt="offer-burger"

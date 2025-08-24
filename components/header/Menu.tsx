@@ -26,7 +26,7 @@ function Menu() {
           </Link>
           <Link
             onClick={() => setOpen(false)}
-            href={"/"}
+            href={"/menu"}
             className="uppercase text-white text-2xl"
           >
             Menu

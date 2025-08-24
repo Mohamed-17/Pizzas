@@ -3,24 +3,25 @@ import React from "react";
 
 function page() {
   return (
-    <div className="h-[calc(100vh-9rem)] md:h-[calc(100vh-14rem)]">
-      <div className="flex flex-col md:flex-row h-full w-full p-4 lg:px-20 xl:px-40 ">
-        <div className="w-full md:w-1/2 h-full text-red-500 flex justify-between items-center">
-          <Image
-            src={"/temporary/p1.png"}
-            alt="image-cart"
-            width={130}
-            height={130}
-            className="object-contain"
-          />
-          <div>
+    <div className="h-[calc(100vh-9rem)] md:h-[calc(100vh-14rem)] flex flex-col md:flex-row p-4 lg:px-20 xl:px-40">
+      <div className=" h-full  w-full text-red-500 flex justify-between items-center flex-col md:flex-row ">
+        <div className="flex justify-between md:justify-between items-center md:h-1/3 h-1/2 w-full md:w-1/2 gap-4">
+          <div className="relative w-1/3  h-full ">
+            <Image
+              src={"/temporary/p1.png"}
+              alt="image-cart"
+              fill
+              className="object-contain"
+            />
+          </div>
+          <div className="">
             <h1 className="text-xl md:text-3xl font-bold">SICILIAN PIZZA</h1>
             <p>Large</p>
           </div>
           <h5 className="font-bold">$24.90</h5>
           <button className="cursor-pointer">X</button>
         </div>
-        <div className="h-full w-full md:w-1/2 flex flex-col justify-center items-center gap-9 bg-fuchsia-50">
+        <div className="h-1/2 w-full md:w-1/2 flex flex-col justify-center items-center gap-9 bg-fuchsia-50">
           <div className="flex flex-col gap-5 text-red-500">
             <p className="flex gap-5">
               <span>Subtotal (3 items)</span>

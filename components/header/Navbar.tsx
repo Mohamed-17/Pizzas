@@ -17,7 +17,7 @@ function Navbar() {
         </div>
         <Link
           href={"/"}
-          className="text-2xl text-red-500 font-bold md:text-4xl flex-1 text-start md:text-center"
+          className="text-2xl w-max text-red-500 font-bold md:text-4xl text-start md:text-center"
         >
           Pizzas
         </Link>

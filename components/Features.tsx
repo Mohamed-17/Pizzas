@@ -3,7 +3,7 @@ import { featuredProducts } from "@/data";
 import Image from "next/image";
 function Features() {
   return (
-    <div className="overflow-x-scroll  text-red-500 p-5">
+    <div className="overflow-x-scroll  text-red-500 p-2 lg:p-5 relative">
       <div className="w-max flex">
         {featuredProducts.map((product) => (
           <div

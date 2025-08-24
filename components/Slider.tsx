@@ -35,7 +35,7 @@ function Slider() {
     return () => clearInterval(interval);
   }, []);
   return (
-    <div className="flex flex-col h-[calc(100vh-6rem)] md:h-[calc(100vh-8rem)] lg:flex-row transition duration-75 ease">
+    <div className="flex flex-col h-[calc(100vh-6rem)] md:h-[calc(100vh-8rem)] relative lg:flex-row transition duration-75 ease">
       <div className="flex-1 flex justify-center items-center flex-col gap-8 p-4">
         <h1 className="text-5xl text-center  text-red-500 font-bold uppercase  md:text-5xl lg:text-6xl xl:text-7xl">
           {data[currentSlide].title}
